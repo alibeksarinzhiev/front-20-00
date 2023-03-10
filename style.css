@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -28,4 +29,54 @@
     display: flex;
     align-items: center;
     column-gap: 40px;
+}
+
+/* section1 */
+.home .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+
+}
+.home__text{
+    width: 100%;
+    margin-top: 190px;
+}
+.nome__text__h1{
+    font: 500 55px/110% 'Raleway';
+    color: black;
+    margin-bottom: 45px;
+}
+.nome__text__p{
+    width: 385px;
+    height: 84px;
+    font: 400 20px/140% 'Raleway';
+    color: black;
+    margin-bottom: 52px;
+}
+.knopka{
+    display: flex
+}
+.home__btn{    
+    width: 243px;
+    height: 68px;
+    border: none;
+    background: #6E9C9F;
+    color: white;
+    margin-bottom: 120px;
+}
+.home__svg{
+    width: 67px;
+    height: 67px;
+    margin-left: 200px;
+}
+.home__dallery{
+    min-width: 705px;
+    height: 826px;
+    background: #F1EADC;
+     margin-left: 100px; 
+}
+.wooman__one{
+     padding: 120px 221px 54px 50px; 
 }
