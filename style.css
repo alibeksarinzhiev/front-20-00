@@ -29,3 +29,17 @@
     align-items: center;
     column-gap: 40px;
 }
+.card{
+    width: 350px;
+    height: 272px;
+}
+.header__text{
+    margin-bottom: 92px;
+}
+.header__cards{
+    display: flex;
+}
+.quality{
+    margin-bottom: 24px;
+    margin-top: 37px;
+}
