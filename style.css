@@ -7,15 +7,20 @@
 }
 .container{
     width: 1140px;
-    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+
 }
 .header{
-
 }
 .header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    z-index: 10;
+    
 }
 .header__logo{
     display: flex;
@@ -37,7 +42,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 65px;
+    gap: 50px;
 
 }
 .home__text{
@@ -45,6 +50,8 @@
     margin-top: 190px;
 }
 .nome__text__h1{
+    width: 585px;
+    height: 122px;
     font: 500 55px/110% 'Raleway';
     color: black;
     margin-bottom: 45px;
@@ -73,15 +80,54 @@
     margin-left: 200px;
 }
 .home__dallery{
-    min-width: 705px;
+    width: 100%;
     height: 826px;
     background: #F1EADC;
-     margin-left: 100px; 
+    margin-top: -30px;
+    position: relative;
+
+}
+.home__img{
+    position: relative;
+}
+.home__img::after{
+    content: '';
+    position: absolute;
+    background-image: url(./img__Baisal/wooman2.png);
+    background-repeat: no-repeat;
+    width: 197px;
+    height: 296px;
+    right: 15%;
+    top: 30%;
+}
+.home__img::before{
+    content: '';
+    position: absolute;
+    background-image: url(./img__Baisal/wooman3.png);
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 570px;
+    top: 62%;
+    left: -5%;
 }
 .wooman__one{
-     padding: 120px 221px 54px 50px; 
+    padding: 120px 221px 54px 50px;  
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section kairat */
 .card{
     width: 350px;
     height: 272px;
@@ -97,17 +143,25 @@
     margin-top: 37px;
 }
 
-h2{
- font-style: normal;
+.collection__h2{
+    font-style: normal;
 font-weight: 500;
 font-size: 40px;
 line-height: 110%;
 letter-spacing: 0.02em;
 color: #000000;
+margin: 130px 0 92px;
+
 }
 .photos{
     width: 1110px;
     height: 827px;
+    display: flex;
+    column-gap: 30px;
+
 
 }
+
+    
+
 
