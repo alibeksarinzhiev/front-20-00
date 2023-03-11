@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
 }
 .container{
     width: 1140px;
@@ -165,4 +166,93 @@ margin: 130px 0 92px;
 
     
 
+
+/* footer */
+footer{
+    margin: 0 auto;
+    background: #F1EADC;
+    width: 100%;    
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: center;
+    gap: 146px;
+    padding-top: 104px;
+    
+}
+.fooret__logo{
+    display: flex;
+}
+.footer__womagazin{
+    display: flex;
+}
+.footer__womagazin__p{
+    font: 500 16px/19px 'Raleway';
+    color: #000000;
+    margin-bottom: 70px;
+} 
+.footer__logo__text{
+    color: #000000;
+    margin-bottom: 6px;
+}
+.footer__ul__top{
+    display: flex;
+    gap: 45px;
+    position: relative;
+}
+
+.footer__ul__li__activ {
+    font: 700 15px/140% 'Raleway';
+    color: #6E9C9F;
+}
+.footer__ul__li__two {
+    font: 500 15px/140% 'Raleway';
+}
+.footer__ul__li {
+    font: 500 15px/140% 'Raleway';
+}
+
+.footer__li__botom{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 27%;
+} 
+.li__botom{
+    font: 400 14px/ 140% 'Raleway';
+    color: #000000;
+    margin-bottom: 10px;
+}
+.footer__right {
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer__right__a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+}
+.a__tel {
+    color: #000000;
+    font: 500 15px/140% 'Raleway';
+    padding-left: 20px;
+    margin-bottom: 9px;
+}
+.a__email{
+    font: 400 15px/140% 'Raleway';
+    color: #000000;
+}
+.footer__icons {
+    display: flex;
+    gap: 12px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.visa{
+    margin-left: 50px;
+}
 
