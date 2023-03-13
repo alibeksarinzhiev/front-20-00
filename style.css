@@ -39,11 +39,15 @@
 
 
 /* section1 */
+.home{
+    overflow: hidden;
+}
 .home .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+
 
 }
 .home__text{
@@ -156,10 +160,10 @@ margin: 130px 0 92px;
 
 }
 .photos{
-    width: 1110px;
-    height: 827px;
-    display: flex;
-    column-gap: 30px;
+
+
+
+    position: relative;
 }
 
 
@@ -254,4 +258,26 @@ footer{
 .visa{
     margin-left: 50px;
 }
+.owl-prev{
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%) rotate(-180deg);
+    z-index: 3;
+    width:40px;
+    height: 20px;
+    background: url("img Kairat/Vector 2.png")center/cover no-repeat;
+
+}
+.owl-next{
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    z-index: 3;
+    width: 40px;
+    height: 20px;
+    background: url("img Kairat/Vector 2.png")center/cover no-repeat;
+}
+
 
