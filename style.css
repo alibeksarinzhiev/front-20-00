@@ -31,10 +31,18 @@
     display: flex;
     column-gap: 35px;
 }
+.header__li {
+    cursor: pointer;
+}
+.header__li_act {
+    cursor: pointer;
+    color: #6E9C9F;
+}
 .header__auth{
     display: flex;
     align-items: center;
     column-gap: 40px;
+    cursor: pointer;
 }
 
 
@@ -160,9 +168,6 @@ margin: 130px 0 92px;
 
 }
 .photos{
-
-
-
     position: relative;
 }
 
@@ -208,12 +213,15 @@ footer{
 .footer__ul__li__activ {
     font: 700 15px/140% 'Raleway';
     color: #6E9C9F;
+    cursor: pointer;
 }
 .footer__ul__li__two {
     font: 500 15px/140% 'Raleway';
+    cursor: pointer;
 }
 .footer__ul__li {
     font: 500 15px/140% 'Raleway';
+    cursor: pointer;
 }
 
 .footer__li__botom{
@@ -227,6 +235,7 @@ footer{
     font: 400 14px/ 140% 'Raleway';
     color: #000000;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .footer__right {
     display: flex;
